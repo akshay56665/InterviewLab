@@ -30,11 +30,15 @@ export async function POST(request: NextRequest) {
       Thank you!.`,
     });
 
+    const techstack = techStack?.trim()
+      ? techStack.split(",").map((tech: any) => tech.trim())
+      : [];
+
     const interview = {
       role,
       type,
       level,
-      techStack: techStack.split(","),
+      techStack: techstack,
       questions: JSON.parse(questions),
       userId: userid,
       finalized: true,
