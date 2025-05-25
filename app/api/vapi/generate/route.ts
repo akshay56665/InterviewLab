@@ -1,7 +1,7 @@
 import { generateText } from "ai";
 import { google } from "@ai-sdk/google";
 import { NextRequest, NextResponse } from "next/server";
-import { getRandomInterviewCover } from "@/lib/utils";
+import { getRandomInterviewCover } from "@/app/lib/utils";
 import { db } from "@/firebase/admin";
 
 export async function GET() {

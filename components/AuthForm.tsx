@@ -13,7 +13,7 @@ import {
 } from "firebase/auth";
 import { Form } from "@/components/ui/form";
 import { Button } from "@/components/ui/button";
-import { Signin, Signup } from "@/lib/actions/auth.actions";
+import { Signin, Signup } from "@/app/lib/actions/auth.actions";
 import FormField from "./FormField";
 
 const authFormSchema = (type: FormType) => {

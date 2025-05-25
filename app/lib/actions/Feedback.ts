@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { createFeedback } from "@/lib/actions/general.actions";
+import { createFeedback } from "@/app/lib/actions/general.actions";
 
 export default async function handler(
   req: NextApiRequest,

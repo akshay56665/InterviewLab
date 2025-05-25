@@ -1,8 +1,8 @@
-import { getCurrentUser } from "@/lib/actions/auth.actions";
+import { getCurrentUser } from "@/app/lib/actions/auth.actions";
 import {
   getFeedbackByInterviewId,
   getInterviewByUserId,
-} from "@/lib/actions/general.actions";
+} from "@/app/lib/actions/general.actions";
 import Image from "next/image";
 import dayjs from "dayjs";
 import { Button } from "@/components/ui/button";

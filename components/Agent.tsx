@@ -1,7 +1,7 @@
 "use client";
 import { interviewer } from "@/constants";
-import { cn } from "@/lib/utils";
-import { vapi } from "@/lib/vapi.sdk";
+import { cn } from "@/app/lib/utils";
+import { vapi } from "@/app/lib/vapi.sdk";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
